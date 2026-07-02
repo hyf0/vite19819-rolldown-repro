@@ -1,1 +1,0 @@
-{"version":3,"file":"app.js","names":[],"sources":["../src/App.tsx"],"sourcesContent":["import { useEffect } from 'react'\n\nexport function App() {\n  useEffect(() => {\n    console.log('ReplayAnalyze')\n  }, [])\n\n  return <div>{'.'}</div>\n}\n"],"mappings":"0EAEA,SAAgB,IAKd,OAJA,EAAA,KACE,QAAQ,IAAI,kBACX,mBAEI,EAAC,MAAA,CAAA,SAAK"}

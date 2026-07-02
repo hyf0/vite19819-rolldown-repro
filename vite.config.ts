@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react-oxc'
 export default defineConfig({
   plugins: [react()],
   build: {
-    sourcemap: true,
+    sourcemap: 'inline',
     minify: 'terser', // same minifier as issue #19819 "Exhibit 1"
     lib: { entry: 'src/App.tsx', formats: ['es'], fileName: 'app' },
     rollupOptions: { external: ['react', 'react/jsx-runtime'] },

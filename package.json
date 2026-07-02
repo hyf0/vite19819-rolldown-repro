@@ -2,12 +2,21 @@
   "name": "vite19819-rolldown-repro",
   "private": true,
   "type": "module",
-  "scripts": { "build": "vite build" },
+  "scripts": {
+    "build": "vite build"
+  },
   "devDependencies": {
-    "vite": "npm:rolldown-vite@^7.3.1",
+    "vite": "^8.0.0",
     "@vitejs/plugin-react-oxc": "^0.3.0",
     "react": "^19",
     "react-dom": "^19",
     "terser": "^5"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.9.0",
+      "onFail": "download"
+    }
   }
 }
