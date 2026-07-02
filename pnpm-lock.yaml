@@ -220,7 +220,7 @@ importers:
         specifier: ^5
         version: 5.48.0
       vite:
-        specifier: ^8.0.0
+        specifier: ^8.1.0
         version: 8.1.2(terser@5.48.0)
 
 packages:

@@ -6,7 +6,7 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "vite": "^8.0.0",
+    "vite": "^8.1.0",
     "@vitejs/plugin-react-oxc": "^0.3.0",
     "react": "^19",
     "react-dom": "^19",
