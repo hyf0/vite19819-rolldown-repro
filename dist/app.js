@@ -1,0 +1,2 @@
+import{useEffect as r}from"react";import{jsx as e}from"react/jsx-runtime";function o(){return r(()=>{console.log("ReplayAnalyze")},[]),/* @__PURE__ */e("div",{children:"."})}export{o as App};
+//# sourceMappingURL=app.js.map
